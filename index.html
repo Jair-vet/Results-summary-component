@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Pagination</title>
+</head>
+<body>
+
+    <section class="md:flex md:mt-[170px]">
+        <div class="md:flex md:p-auto md:m-auto md:justify-center">
+            <!-- Bubble Container -->
+            <div class="md:w-1/2 md:shadow-xl w-full md:rounded-2xl rounded-b-[50px] bg-gradient-to-t from-[#2e2be9] to-[#7857ff]">
+                <h2 class="text-center text-gray-200 text-xl py-4">Your Result</h2>
+                <!-- Bubble -->
+                <div class="flex justify-center rotate-180">
+                    <div class="flex flex-col items-center justify-center rounded-full w-[200px] h-[200px] shadow-xl text-center bg-gradient-to-t from-indigo-900">
+                        <p class="rotate-180 text-gray-400">of 100</p>
+                        <h2 class="rotate-180 text-white text-7xl font-bold">76</h2>
+                    </div>
+                </div>
+                <h2 class="text-white text-2xl text-center mt-6">Great</h2>
+                <div class="px-[100px] py-2">
+                    <p class="text-gray-300 text-md text-center mb-8">You scored higher than 65% of the people who have taken these tests.</p>
+                </div>
+            </div>
+            <!-- Results Summary Container -->
+            <div class="md:w-1/2 w-full md:rounded-r-3xl md:shadow-xl">
+                <div class="p-6 md:p-12 w-full">
+                    <h2 class="text-xl text-[#303b5a] m-2 mb-6 font-bold font-sans">Summary</h2>
+                    <!-- Reaction -->
+                    <div class="flex flex-col bg-red-100 rounded-md p-4 mb-4">
+                        <div class="flex flex-row">
+                            <img src="/img/icon-reaction.svg" alt="reaction-icon">
+                            <h3 class="text-[#ff5757] w-2/3 ml-4">Reaction</h3>
+                            <div>
+                                <p class="text-[#303b5a]"><span class="font-bold">80</span><span class="text-gray-400"> / 100</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Memory -->
+                    <div class="flex flex-col bg-yellow-100 rounded-md p-4 mb-4">
+                        <div class="flex flex-row">
+                            <img src="/img/icon-memory.svg" alt="memory-icon">
+                            <h3 class="text-[#ffb01f] w-2/3 ml-4">Memory</h3>
+                            <div>
+                                <p class="text-[#303b5a]"><span class="font-bold">92</span><span class="text-gray-400"> / 100</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- verbal -->
+                    <div class="flex flex-col bg-emerald-100 rounded-md p-4 mb-4">
+                        <div class="flex">
+                            <img src="/img/icon-verbal.svg" alt="verbal-icon">
+                            <h3 class="text-[#00bd91] w-2/3 ml-4">Verbal</h3>
+                            <div>
+                                <p class="text-[#303b5a]"><span class="font-bold">61</span><span class="text-gray-400"> / 100</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- visual -->
+                    <div class="flex flex-col bg-indigo-100 rounded-md p-4 mb-4">
+                        <div class="flex">
+                            <img src="/img/icon-visual.svg" alt="visual-icon">
+                            <h3 class="text-[#1125d4] w-2/3 ml-4">Visual</h3>
+                            <div>
+                                <p class="text-[#303b5a]"><span class="font-bold">72</span><span class="text-gray-400"> / 100</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Continue Button -->
+                    <div class="flex flex-col bg-[#303b5a] rounded-3xl p-4 mb-4">
+                        <button>
+                            <h3 class="text-white ml-4 text-center font-bold">Continue</h3>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+</body>
+</html>
